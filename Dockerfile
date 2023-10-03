@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.12
 RUN apt-get update \
     && apt-get install -qqy --no-install-recommends \
         apt-utils \
